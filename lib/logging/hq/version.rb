@@ -1,5 +1,3 @@
-require 'logging'
-
 module Logging
   module HQ
     module VERSION #:nodoc:
