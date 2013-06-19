@@ -12,7 +12,7 @@ gem install logging-hq
 
 # Usage
 
-To test it locally, just hit something like "bundle install && rackup".
+To test it locally, just hit something like `bundle install && rackup`.
 
 In Rails, you could use this:
 
