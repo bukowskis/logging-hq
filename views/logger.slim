@@ -1,0 +1,8 @@
+li
+  = @logger.name
+  '
+  == badges @logger
+
+  ul
+    - @logger.children.each do |logger|
+      == logger_and_children logger

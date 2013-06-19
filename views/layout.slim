@@ -1,0 +1,23 @@
+doctype html
+
+html
+  head
+    meta http-equiv='Content-Type' content='text/html; charset=utf-8'
+    meta data-base-url=url
+    link rel='stylesheet' href=url('/stylesheets/bootstrap-2.3.min.css')
+    link rel='stylesheet' href=url('/stylesheets/bootstrap-responsive-2.3.min.css')
+
+  body style='margin-top: 70px'
+
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          .brand Logger HQ
+
+    .container-fluid
+      .row-fluid
+        == yield
+
+    script src=url('/javascripts/jquery-2.0.2.min.js')
+    script src=url('/javascripts/bootstrap-2.3.min.js')
+    script src=url('/javascripts/application.js')

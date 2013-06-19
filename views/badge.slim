@@ -1,0 +1,5 @@
+- active = @logger.level.to_s == @level.to_s
+
+a href="#" data-logger=@logger.name data-set-level=@level
+  span class=@level.css_classes style=('opacity: 0.2; -webkit-filter: grayscale(100%)' unless active)
+    = @level

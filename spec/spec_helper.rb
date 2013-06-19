@@ -1,0 +1,3 @@
+require 'logging/hq/...'
+
+# Coming soon to a cinema near you...
