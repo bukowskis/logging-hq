@@ -2,7 +2,7 @@
 
 A (beta) GUI for [Logging](https://github.com/TwP/logging) to set the log levels dynamically.
 
-![screenshot](https://raw.github.com/bukowskis/logger-hq/master/doc/screenshot.png?login=mmzoo&token=cedc759d48577e6fcb81e0f010beea4d)
+![screenshot](https://github.com/bukowskis/logging-hq/raw/master/doc/screenshot.png)
 
 # Installation
 
