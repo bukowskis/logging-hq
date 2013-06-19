@@ -1,8 +1,3 @@
-lib = File.expand_path('../lib/', __FILE__)
-$:.unshift lib unless $:.include?(lib)
-
-require 'logging/hq/version'
-
 Gem::Specification.new do |spec|
 
   spec.authors      = %w{ bukowskis }
@@ -12,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.license      = 'MIT'
 
   spec.name         = 'logging-hq'
-  spec.version      = Logging::HQ::VERSION::STRING
+  spec.version      = '0.0.1'
 
   spec.files        = Dir['{bin,lib,man,test,spec}/**/*', 'README*', 'LICENSE*'] & `git ls-files -z`.split("\0")
   spec.require_path = 'lib'
