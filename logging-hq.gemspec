@@ -1,4 +1,7 @@
-require File.expand_path('../lib/logging/hq/version', __FILE__)
+lib = File.expand_path('../lib/', __FILE__)
+$:.unshift lib unless $:.include?(lib)
+
+require 'logging/hq/version'
 
 Gem::Specification.new do |spec|
 

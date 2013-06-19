@@ -7,7 +7,7 @@ A (beta) GUI for [Logging](https://github.com/TwP/logging) to set the log levels
 # Installation
 
 ```bash
-gem install logging-hq
+gem install logging-hq  # This doesn't work yet, you'll have to fetch it from github
 ````
 
 # Usage
